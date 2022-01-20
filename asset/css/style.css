@@ -60,7 +60,7 @@ picture img{
     flex-direction: column;
     justify-content: space-evenly;
 }
-button{
+.index_contact{
     padding:0;
     width: 12.477vw;
     height: 47px;
@@ -69,8 +69,11 @@ button{
     border: 0;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    line-height: 47px;
 }
-button:hover{
+a:hover{
     transform: scale(1.01);
     transition: 0.2s;
 }
@@ -256,6 +259,10 @@ main .contact button{
     line-height: 47px;
     display: flex;
     justify-content: space-around;
+    background-color: black;
+    color: white;
+    border: 0;
+    cursor: pointer;
 }
 main .contact button img{
     width: 30px;
@@ -272,6 +279,7 @@ main img{
 .instagram img , .linkedin img , .email img , .yt img{
     width: 5.546vw;
     height: 8.6209vh;
+    cursor: pointer;
 }
 .instagram h3 , .linkedin h3 , .email h3 , .yt h3{
     align-self: center;
