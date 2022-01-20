@@ -264,14 +264,19 @@ main .contact button img{
 }
 main img{
     margin: 0;
+    height: 50%;
 }
-.instagram , .linkedin{
+.instagram , .linkedin , .email , .yt{
     display: flex;
 }
-.instagram img , .linkedin img{
+.instagram img , .linkedin img , .email img , .yt img{
     width: 5.546vw;
     height: 8.6209vh;
 }
-.instagram h3 , .linkedin h3{
+.instagram h3 , .linkedin h3 , .email h3 , .yt h3{
     align-self: center;
+}
+.instagram img:hover , .linkedin img:hover , .email img:hover , .yt img:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
 }
