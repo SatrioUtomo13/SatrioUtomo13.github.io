@@ -199,3 +199,79 @@ center{
     width: 27vw;
     height: 40vh;
 }
+
+/* contact css */
+main{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main .contact{
+    display: flex;
+    flex-direction: column;
+    width: 28vw;
+    height: 65vh;
+    justify-content: space-between;
+}
+main .contact h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+main .contact input{
+    height: 7vh;
+    background-color: black;
+    color: white;
+    border:0;
+    border-radius: 10px
+}
+main .contact input::-webkit-input-placeholder{
+    color: white;
+    padding-left: 5px;
+}
+main .contact input::-moz-input-placeholder{
+    color: white;
+    padding-left: 5px;
+}
+main .contact textarea{
+    background-color: black;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+}
+main .contact textarea::-webkit-input-placeholder{
+    color: white;
+    padding: 5px 5px;
+}
+main .contact textarea::-moz-input-placeholder{
+    color: white;
+    padding: 5px 5px;
+}
+main .contact button{
+    width: 135px;
+    height: 47px;
+    border-radius: 10px;
+    line-height: 47px;
+    display: flex;
+    justify-content: space-around;
+}
+main .contact button img{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+}
+main img{
+    margin: 0;
+}
+.instagram , .linkedin{
+    display: flex;
+}
+.instagram img , .linkedin img{
+    width: 5.546vw;
+    height: 8.6209vh;
+}
+.instagram h3 , .linkedin h3{
+    align-self: center;
+}
