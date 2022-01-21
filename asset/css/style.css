@@ -18,6 +18,7 @@ img{
 }
 nav{
     width: 4.035vw;
+    min-width: 50px;
     height: 41.667vh;
     background-color: #000;
     position:absolute;
@@ -294,8 +295,38 @@ main img{
 
 /* responsive tablet */
 @media screen and (max-width:834px){
+    body{
+        overflow: hidden;
+    }
     span img{
-        top: 0;
-        left: 0;
+        top: 42px;
+        left: 40px;
+    }
+    img{
+        margin-left: 50vw;
+    }
+    picture img{
+        top: 30px;
+        left: 45vw;
+    }
+    .container{
+        top: 505px;
+        left: 16vw;
+        justify-content: space-between;
+        align-items: center;
+        height: 40vh;
+        width: 80vw;
+    }
+    .container p{
+        font-size: 22px;
+    }
+    .index_contact{
+        order: 4;
+    }
+    .logo{
+        order: 3;
+    }
+    .logo img{
+        padding: 5px;
     }
 }
