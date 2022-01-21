@@ -290,3 +290,12 @@ main img{
 }
 
 /* blog css */
+
+
+/* responsive tablet */
+@media screen and (max-width:834px){
+    span img{
+        top: 0;
+        left: 0;
+    }
+}
