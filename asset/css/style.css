@@ -117,6 +117,7 @@ span img{
 }
 .box1{
     width: 17vw;
+    min-width: 290px;
     height: 30vh;
     background-color: #EBECED;
     border: 5px solid black;
@@ -217,7 +218,7 @@ main .contact{
     display: flex;
     flex-direction: column;
     width: 28vw;
-    height: 65vh;
+    height: 500px;
     justify-content: space-between;
 }
 main .contact h1{
@@ -225,7 +226,7 @@ main .contact h1{
     font-size: 60px;
 }
 main .contact input{
-    height: 7vh;
+    height: 50px;
     background-color: black;
     color: white;
     border:0;
@@ -328,5 +329,39 @@ main img{
     }
     .logo img{
         padding: 5px;
+    }
+    .box{
+        flex-direction: column;
+        height: 70vh;
+        justify-content: space-between;
+    }
+    .box .box1:nth-child(2){
+        align-self: flex-end;
+    }
+    .box1{
+        height: 250px;
+    }
+    .box1 .skill{
+        margin-top: 5px;
+    }
+    .project img{
+        height: 200px;
+    }
+    main{
+        flex-direction: column;
+        height: 40%;
+        margin-top: 500px;
+    }
+    main img{
+        transform:rotate(90deg);
+    }
+    main .contact{
+        width: 55vw;
+    }
+    main .contact h1 , main .contact input , main .contact textarea{
+        margin-bottom: 10px;
+    }
+    .socialMedia{
+        display: flex;
     }
 }
