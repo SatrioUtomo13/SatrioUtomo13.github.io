@@ -350,9 +350,9 @@ main img{
     main{
         flex-direction: column;
         height: 40%;
-        margin-top: 500px;
+        margin-top: 300px;
     }
-    main img{
+    main .line{
         transform:rotate(90deg);
     }
     main .contact{
@@ -363,5 +363,15 @@ main img{
     }
     .socialMedia{
         display: flex;
+    }
+    .instagram, .linkedin, .email, .yt{
+        flex-direction: column;
+        width: 60px;
+        height: 300px;
+    }
+    .instagram h3, .linkedin h3, .email h3, .yt h3{
+        transform: rotate(90deg);
+        padding-left: 110px;
+        padding-top: 10px;
     }
 }
