@@ -295,6 +295,17 @@ main img{
 /* blog css */
 
 
+.responsive_hp{
+    display: none;
+    height: 60px;
+    background: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
 /* responsive tablet */
 @media screen and (max-width:834px){
     body{
@@ -384,12 +395,22 @@ main img{
     #lamp{
         display: none;
     }
-    nav{
+    /* nav{
         top: 0;
         left: -13vw;
         height: 56vh;
         transform-origin: 100% 0%;
         transform: rotate(-90deg);
+    } */
+    /* nav{
+        height: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    } */
+    .responsive_hp{
+        display: inline-block;
     }
     nav img{
         transform:rotate(90deg);
@@ -406,5 +427,8 @@ main img{
         height: 270px;
         top: 14vh;
         left: calc(90% - 245px);
+    }
+    .container{
+        top:26vh;
     }
 }
