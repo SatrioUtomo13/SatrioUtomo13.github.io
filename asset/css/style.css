@@ -35,6 +35,7 @@ nav img{
     width: 2.773vw;
     height: 4.492vh;
     cursor: pointer;
+    min-width: 25px;
 }
 nav img:hover{
     transform: scale(1.2);
@@ -373,5 +374,37 @@ main img{
         transform: rotate(90deg);
         padding-left: 110px;
         padding-top: 10px;
+    }
+}
+
+
+/* responsive phone */
+
+@media screen and (max-width:428px){
+    #lamp{
+        display: none;
+    }
+    nav{
+        top: 0;
+        left: -13vw;
+        height: 56vh;
+        transform-origin: 100% 0%;
+        transform: rotate(-90deg);
+    }
+    nav img{
+        transform:rotate(90deg);
+    }
+    span img{
+        left: 36px;
+        top: 883px;
+    }
+    picture{
+        width: 100vw;
+    }
+    picture img{
+        width: 245px;
+        height: 270px;
+        top: 14vh;
+        left: calc(90% - 245px);
     }
 }
