@@ -295,15 +295,7 @@ main img{
 /* blog css */
 
 
-.responsive_hp{
-    display: none;
-    height: 60px;
-    background: blue;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-}
+
 
 
 /* responsive tablet */
@@ -323,7 +315,7 @@ main img{
         left: 45vw;
     }
     .container{
-        top: 505px;
+        top: 45vh;
         left: 16vw;
         justify-content: space-between;
         align-items: center;
@@ -392,43 +384,45 @@ main img{
 /* responsive phone */
 
 @media screen and (max-width:428px){
+    body{
+        position: relative;
+    }
     #lamp{
         display: none;
     }
-    /* nav{
-        top: 0;
-        left: -13vw;
-        height: 56vh;
-        transform-origin: 100% 0%;
-        transform: rotate(-90deg);
-    } */
-    /* nav{
-        height: 20px;
+    .responsive_hp{
+        height: 60px;
+        width: 100%;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
-    } */
-    .responsive_hp{
-        display: inline-block;
-    }
-    nav img{
-        transform:rotate(90deg);
+        flex-direction: row;
     }
     span img{
         left: 36px;
-        top: 883px;
+        top: 95vh;
     }
     picture{
         width: 100vw;
     }
     picture img{
-        width: 245px;
+        width: 40vw;
         height: 270px;
-        top: 14vh;
-        left: calc(90% - 245px);
+        top: 7vh;
+        left: 30%;
     }
     .container{
-        top:26vh;
+        text-align: center;
+        left: 10vw;
+    }
+    .container p {
+        font-size: calc(22px - 1vh);
+    }
+    .logo img{
+        width: 10.546vw;
+    }
+    .index_contact{
+        width: 25.477vw;
     }
 }
