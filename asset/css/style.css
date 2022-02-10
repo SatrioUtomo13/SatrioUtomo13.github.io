@@ -425,4 +425,10 @@ main img{
     .index_contact{
         width: 25.477vw;
     }
+
+    /* interest */
+    .container-interest{
+        position: absolute;
+        top: 10vh;
+    }
 }
