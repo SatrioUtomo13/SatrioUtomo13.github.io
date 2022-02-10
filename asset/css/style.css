@@ -429,6 +429,15 @@ main img{
     /* interest */
     .container-interest{
         position: absolute;
-        top: 10vh;
+        top: 5vh;
+        transform: translateX(-13%);
+    }
+    .box{
+        position: relative;
+        top: 30vh;
+        margin: 0;
+    }
+    .box .box1:nth-child(2) , .box .box1:nth-child(3){
+        display: none;
     }
 }
