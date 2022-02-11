@@ -155,6 +155,9 @@ span img{
         margin-top: 0;
     }
 }
+.radio{
+    display: none;
+}
 
 /* PROJECT CSS */
 center{
@@ -430,14 +433,18 @@ main img{
     .container-interest{
         position: absolute;
         top: 5vh;
-        transform: translateX(-13%);
     }
     .box{
         position: relative;
         top: 30vh;
-        margin: 0;
+        margin: auto;
     }
     .box .box1:nth-child(2) , .box .box1:nth-child(3){
         display: none;
+    }
+    .radio{
+        display: block;
+        margin-top: 5px;
+        text-align: center;
     }
 }
